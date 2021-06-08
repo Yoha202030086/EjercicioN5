@@ -1,0 +1,27 @@
+InicioCantidad 
+ H <- 0 
+ M <- 0
+
+   Mientras True Hacer 
+   Escribir "Ingresar sexo H/M"
+   Leer s
+   Escribir "Ingrese edad: "
+   leer e 
+ 
+     Si s=='M' Y e=>18 Entonces 
+         M<- H+1
+     FinSi 
+     Si s=='H' Y e<=18 Entonces 
+         H<- H+1
+     FinSi
+   FinMientras 
+   Escribir "La cantidad de mujeres mayores es: "
+   leer mayores
+   Escribir "La cantidad de mujeres menores es: "
+   leer menores
+   Escribir "La cantidad de hombres mayores es: "
+   leer mayores 
+   Escribir "La cantidad de hombres menores es: "
+   leer menores
+   mostrar
+FinCantidad 
